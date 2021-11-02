@@ -28,6 +28,33 @@ a {
     padding: 0 10px;
     margin: 0 auto;
 }
+.section_left {
+    width: 445px;
+    text-align: justify;
+}
+.section_title {
+    height: 107px;
+    left: 165px;
+    top: 922px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #000000;
+}
+.section_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+
+    /*text-align: justify;*/
+
+    color: #000000;
+}
 
 
 
@@ -152,4 +179,29 @@ a {
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
+
+
+
+/* ABOUT */
+.about {
+    background: #FFFFFF;
+    height: 500px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_left {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about a {
+    color: #ED4C5C;
 }
