@@ -28,15 +28,14 @@ a {
     padding: 0 10px;
     margin: 0 auto;
 }
+.grid {
+    display: grid;
+}
 .section_left {
     width: 445px;
     text-align: justify;
 }
 .section_title {
-    height: 107px;
-    left: 165px;
-    top: 922px;
-
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -58,7 +57,10 @@ a {
 
 
 
-/* HERO */
+
+/*===========================
+ * HERO *
+===========================*/
 .hero {
     position: relative;
     height: 100vh;
@@ -123,7 +125,10 @@ a {
 
 
 
-/* HEADER */
+
+/*===========================
+ * HEADER *
+===========================*/
 .header {
     position: absolute;
     top: 17px;
@@ -183,13 +188,13 @@ a {
 
 
 
-/* ABOUT */
+
+/*===========================
+ * ABOUT *
+===========================*/
 .about {
     background: #FFFFFF;
-    height: 500px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    padding: 94px 0 95px 0;
 }
 .about .container {
     display: flex;
@@ -202,6 +207,100 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
+.about h2 {
+    height: 107px;
+}
 .about a {
+    color: #ED4C5C;
+}
+.about_right {
+    position: relative;
+    padding-right: 95px;
+}
+.about_right svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -33px;
+    margin: auto 0;
+}
+
+
+
+
+/*===========================
+ * FEATURES
+===========================*/
+.features {
+    background: #FAFAFA;
+    padding: 63px 0 229px 0;
+}
+.features h2 {
+    height: 55px;
+    margin-bottom: 63px;
+
+    text-align: center;
+}
+.features_cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.features_card {
+    position: relative;
+}
+.features_card_img {
+    width: 100%;
+}
+.features_card_white-part {
+    position: absolute;
+    top: 157px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+
+    width: 293px;
+    height: 165px;
+    padding-top: 33px;
+
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features_card_title {
+    width: 229px;
+    height: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #101010;
+}
+.features_card_text {
+    width: 229px;
+    height: 57px;
+    padding: 20px 0 5px 0;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #101010;
+}
+.features_card_link {
+    font-weight: bold;
+
     color: #ED4C5C;
 }
