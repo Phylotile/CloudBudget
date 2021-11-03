@@ -20,6 +20,10 @@ button:hover, a:hover {
 a {
     text-decoration: none;
 }
+input {
+    border: none;
+}
+
 
 .container {
     max-width: 1130px;
@@ -486,6 +490,20 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
+.contact_form_item {
+    height: 60px;
+    padding-left: 31px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
 .contact_form_item::placeholder {
     font-style: normal;
     font-weight: normal;
@@ -494,7 +512,23 @@ a {
 
     color: rgba(19, 39, 67, 0.5);
 }
+.contact_form_names {
+    display: flex;
+}
+.contact_form_name {
+    /*width: 255px;*/
+    width: 50%;
+}
+.contact_form_name:not(:last-child) {
+    margin-right: 30px;
+}
+.contact_form_bottom_item {
+    width: 100%;
+    margin-top: 24px;
+}
 .contact .section_btn {
+    margin-top: 27px;
+
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
