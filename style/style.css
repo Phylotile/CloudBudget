@@ -490,6 +490,9 @@ input {
     flex-direction: column;
     justify-content: space-between;
 }
+.contact_form {
+    width: 540px;
+}
 .contact_form_item {
     height: 60px;
     padding-left: 31px;
