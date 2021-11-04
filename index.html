@@ -53,6 +53,18 @@
                 <a href="#" class="header_nav_link">Contact</a>
                 <a href="#" class="header_nav_link">Sign up</a>
             </nav>
+            <div class="header_select_div">
+                <img src="./images/header/en_lang.svg" alt="english flag" class="header_select_img">
+                <label for="header_select" class="header_select_lang"></label>
+                <select name="" id="header_select" class="header_select_lang_inp">
+                    <option class="header_select_lang_inp" value="0">EN</option>
+                    <option value="1">RU</option>
+                    <option value="2">KG</option>
+                </select>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.7727 11.2734H9.22735C8.88106 11.2734 8.6877 11.6391 8.90216 11.8887L14.6748 18.5824C14.84 18.774 15.1582 18.774 15.3252 18.5824L21.0979 11.8887C21.3123 11.6391 21.119 11.2734 20.7727 11.2734Z" fill="white"/>
+                </svg>
+            </div>
             <button class="header_btn">
                 Login
             </button>
@@ -295,20 +307,18 @@
             <div class="contact_right">
                 <form action="#" class="contact_form">
                     <div class="contact_form_names">
-                        <input id="name" type="text" class="contact_form_item contact_form_name" placeholder="First Name">
+                        <input id="name" type="text" class="contact_form_item contact_form_name contact_form_name1" placeholder="First Name">
                         <label for="name"></label>
                         <input id="last-name" type="email" class="contact_form_item contact_form_name" placeholder="Last Name">
                         <label for="last-name"></label>
                     </div>
                     <input id="phone" type="tel" class="contact_form_item contact_form_bottom_item" placeholder="Phone Number">
                     <label for="phone"></label>
-                    <select id="service" class="contact_form_item contact_form_bottom_item">
+                    <select name="" id="service" class="contact_form_item contact_form_bottom_item contact_form_select_option">
                         <option class="contact_form_item" value="">Select Service</option>
                     </select>
                     <label for="service"></label>
-                    <button class="section_btn">
-                        Submit Now
-                    </button>
+                    <button class="section_btn">Submit Now</button>
                 </form>
             </div>
         </div>
