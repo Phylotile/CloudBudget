@@ -23,6 +23,34 @@ a {
 input {
     border: none;
 }
+select {
+    appearance: none;
+    outline: 0;
+    /*border: solid 1px black;*/
+    border: 0;
+    background: none;
+}
+.header_select_lang_inp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    /*vertical-align: middle;*/
+    color: #FFFFFF;
+}
+.header_select {
+    width: 96px;
+    height: 32px;
+}
+.header_select_div {
+    width: 96px;
+    height: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 .container {
@@ -528,6 +556,9 @@ input {
 .contact_form_bottom_item {
     width: 100%;
     margin-top: 24px;
+}
+.contact_form_bottom_item {
+    color: rgba(19, 39, 67, 0.5);
 }
 .contact .section_btn {
     margin-top: 27px;
