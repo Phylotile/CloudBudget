@@ -541,3 +541,56 @@ input {
     border: 1.5px solid #ED4C5C;
 }
 
+
+
+/*===========================
+ * FOOTER *
+===========================*/
+.footer {
+    background: #FAFAFA;
+    padding: 85px 0 86px 0;
+}
+.footer .container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+}
+.footer_text {
+    margin-top: 141px;
+    color: #101010;
+}
+.footer_title {
+    margin-bottom: 33px;
+}
+.footer_address {
+    line-height: 14px;
+}
+.footer_item {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #101010;
+}
+.footer_div1 .footer_item {
+    line-height: 150%;
+}
+.footer_div2 .footer_item {
+    line-height: 160%;
+}
+.footer_div3 .footer_item {
+    line-height: 14px;
+}
+.footer_item_email {
+    margin-bottom: 11px;
+}
+.footer_icons {
+    margin-top: 20px;
+}
+.fab {
+    font-size: 14px;
+    color: #101010;
+}
+.footer_icon:not(:last-child) {
+    margin-right: 12px;
+}
