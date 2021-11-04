@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cloud Budget</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -278,7 +279,7 @@
 
 
     <!--=======================
-    -- FOCUS --
+    -- CONTACT --
     ========================-->
     <section class="contact" id="contact">s
         <div class="container">
@@ -295,18 +296,71 @@
                 <form action="#" class="contact_form">
                     <div class="contact_form_names">
                         <input id="name" type="text" class="contact_form_item contact_form_name" placeholder="First Name">
-<!--                        <label for="name">First Name</label>-->
+                        <label for="name"></label>
                         <input id="last-name" type="email" class="contact_form_item contact_form_name" placeholder="Last Name">
-<!--                        <label for="last-name">Last Name</label>-->
+                        <label for="last-name"></label>
                     </div>
                     <input id="phone" type="tel" class="contact_form_item contact_form_bottom_item" placeholder="Phone Number">
-<!--                    <label for="phone">Phone Number</label>-->
-                    <input id="service" type="text" class="contact_form_item contact_form_bottom_item" placeholder="Select Service">
-<!--                    <label for="service">Select Service</label>-->
+                    <label for="phone"></label>
+                    <select id="service" class="contact_form_item contact_form_bottom_item">
+                        <option class="contact_form_item" value="">Select Service</option>
+                    </select>
+                    <label for="service"></label>
                     <button class="section_btn">
                         Submit Now
                     </button>
                 </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--=======================
+    -- FOOTER --
+    ========================-->
+    <section class="footer" id="footer">
+        <div class="grid container">
+            <div class="footer_div footer_div1">
+                <h4 class="footer_title">Address</h4>
+                <p class="footer_item footer_address">
+                    Pipang Ltd, Griva Digeni,<br>
+                    81-83 Jacovides Tower, 1st Floor<br>
+                    1090 Picosia USA
+                </p>
+                <p class="footer_item footer_text">Copyright 2018 CloudBudget</p>
+            </div>
+            <div class="footer_div footer_div2">
+                <h4 class="footer_title">Services</h4>
+                <div class="footer_items_div">
+                    <a href="#" class="footer_item">overview</a>
+                    <a href="#" class="footer_item">features</a>
+                    <a href="#" class="footer_item">technology</a>
+                    <a href="#" class="footer_item">terms & Conditions</a>
+                    <a href="#" class="footer_item">privacy</a>
+                </div>
+            </div>
+            <div class="footer_div footer_div3">
+                <h4 class="footer_title">Get in Touch</h4>
+                <div class="footer_items_div">
+                    <a class="footer_item footer_item_email" href="mailto:aidin.ozubekov@gmail.com">info@cloudbudget.com</a>
+                    <a class="footer_item footer_item_tel" href="tel:18447217120">+1 844-721-7120</a>
+                    <div class="footer_icons">
+                        <a href="#" class="footer_icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer_icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="footer_icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_div footer_div4">
+                <h4 class="footer_title">We Support</h4>
+                <img src="./images/footer/footer_picture.png" alt="" class="footer_pictures">
             </div>
         </div>
     </section>
