@@ -522,7 +522,7 @@ input {
     /*width: 255px;*/
     width: 50%;
 }
-.contact_form_name:not(:last-child) {
+.contact_form_name1 {
     margin-right: 30px;
 }
 .contact_form_bottom_item {
