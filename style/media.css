@@ -1,3 +1,42 @@
 @media (max-width: 991px) {
-    .
+    .about_right {
+        padding-right: 0;
+    }
+    .about_right img {
+        width: 400px;
+    }
+
+    .features_card_white-part {
+        top: 120px;
+        width: 250px;
+        height: 155px;
+        padding-top: 22px;
+    }
+
+    .focus .section_text {
+        width: 357px;
+    }
+    .focus_img {
+        /*width: 400px;*/
+    }
+    .focus_bg_img_left, .focus_bg_img_right {
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*bottom: 0;*/
+        /*margin: auto 0;*/
+        width: 390px;
+    }
+    .focus_bg_img_left {
+        left: -30px;
+    }
+    .focus_bg_img_right {
+        right: 20px;
+    }
+
+    .contact .section_left {
+        width: 362px;
+    }
+    .contact .section_text {
+        width: 330px;
+    }
 }
